@@ -1,5 +1,5 @@
-import { apiGet } from "./client";
+import { apiGet } from './client'
 
-export function checkHealth(){
-    return apiGet('/health')
+export function checkHealth() {
+  return apiGet('/health')
 }
